@@ -1,0 +1,6 @@
+ch = input().strip()
+
+if ch.lower() in "aeiou":
+    print("vowel")
+else:
+    print("consonant")
